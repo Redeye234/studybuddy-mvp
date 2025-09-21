@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg*
+pip-wheel-metadata/
+.build/
+build/
+dist/
+htmlcov/
+.coverage*
+.pytest_cache/
+.mypy_cache/
+
+# Environments & secrets
+.env
+.env.*
+.venv/
+venv/
+
+# Logs & cache
+*.log
+.cache/
+
+# Node / web artifacts
+node_modules/
+web/.parcel-cache/
+web/dist/
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local data
+ollama-data/
+uploads/
